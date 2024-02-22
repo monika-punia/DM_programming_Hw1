@@ -177,7 +177,6 @@ class Section3:
         NDArray[np.floating],
         NDArray[np.int32],
     ]:
-        """"""
         # Enter your code and fill the `answer` dictionary
         """
         seven_nine_idx = (y == 7) | (y == 9)
