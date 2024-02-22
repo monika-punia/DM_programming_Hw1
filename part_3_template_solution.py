@@ -80,7 +80,7 @@ class Section3:
         NDArray[np.floating],
         NDArray[np.int32],
     ]:
-        """ """
+        
         # Enter code and return the `answer`` dictionary
 
         answer = {}
