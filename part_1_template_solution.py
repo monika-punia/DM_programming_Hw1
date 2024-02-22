@@ -96,10 +96,10 @@ class Section1:
         ytrain_test = nu.scale_data_1(ytrain)
         ytest_test = nu.scale_data_1(ytest)
 
-        #print("1(B) - Are elements in Xtrain a floating point number and scaled between 0 to 1: " +str(Xtrain))
-        #print("1(B) - Are elements in a floating point number and scaled between 0 to 1: " +str(Xtest))
-        #print("1(B) - Are elements in ytrian an integer: " +str(ytrain_test))
-        #print("1(B) - Are elements in ytest an integer: " +str(ytest_test)) 
+        print("1(B) - Are elements in Xtrain a floating point number and scaled between 0 to 1: " +str(Xtrain))
+        print("1(B) - Are elements in a floating point number and scaled between 0 to 1: " +str(Xtest))
+        print("1(B) - Are elements in ytrian an integer: " +str(ytrain_test))
+        print("1(B) - Are elements in ytest an integer: " +str(ytest_test)) 
 
        
         answer = {}
