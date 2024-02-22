@@ -190,8 +190,8 @@ class Section3:
         )
         """
         #X,y,Xtest,ytest = u.prepare_data()
-        #X,y = nu.filter_imbalanced_7_9s(X, y)
-        #Xtest,ytest = nu.filter_imbalanced_7_9s(Xtest, ytest)
+        X,y = nu.filter_imbalanced_7_9s(X, y)
+        Xtest,ytest = nu.filter_imbalanced_7_9s(Xtest, ytest)
 
         Xtrain_test = nu.scale_data(X)
         Xtest_test = nu.scale_data(Xtest)
