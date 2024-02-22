@@ -12,6 +12,7 @@
 """
 import numpy as np
 from numpy.typing import NDArray
+
 def scale_data(data):
     # Scale between 0 and 1
     """
@@ -26,7 +27,7 @@ def scale_data(data):
 
     if np.isnan(data).any() or np.isinf(data).any():
         raise ValueError("Input array contains NaN or infinite values.")
-"""
+    """
     data = (data - data.min()) / (data.max() - data.min())
     return data
 
