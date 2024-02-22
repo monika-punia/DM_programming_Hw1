@@ -361,8 +361,8 @@ class Section3:
         
         answer["confusion_matrix_train"] = conf_mat_train  
         answer["confusion_matrix_test"] = conf_mat_test  
-        answer["explain_purpose_of_class_weights"] = "The class weights are used to address class imbalance by penalizing misclassifications of the minority class more heavily."
-        answer["explain_performance_difference"] = "The performance difference observed with class weights reflects the model's improved ability to generalize to the minority class, leading to more balanced performance metrics across all classes."
+        #answer["explain_purpose_of_class_weights"] = "The class weights are used to address class imbalance by penalizing misclassifications of the minority class more heavily."
+        #answer["explain_performance_difference"] = "The performance difference observed with class weights reflects the model's improved ability to generalize to the minority class, leading to more balanced performance metrics across all classes."
         return answer
 
         
