@@ -179,7 +179,7 @@ class Section3:
     ]:
         
         # Enter your code and fill the `answer` dictionary
-        
+        """
         seven_nine_idx = (y == 7) | (y == 9)
         X = X[seven_nine_idx, :]
         y = y[seven_nine_idx]
@@ -200,6 +200,8 @@ class Section3:
         # Checking that the labels are integers
         ytrain_test = nu.scale_data_1(y)
         ytest_test = nu.scale_data_1(ytest)
+
+        """
         print("3(B) - Are elements in Xtrain a floating point number and scaled between 0 to 1: " +str(Xtrain_test))
         print("3(B) - Are elements in a floating point number and scaled between 0 to 1: " +str(Xtest_test))
         print("3(B) - Are elements in ytrian an integer: " +str(ytrain_test))
